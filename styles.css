@@ -1,0 +1,142 @@
+.left-side-containter {
+    position: relative;
+    width: 15vw;
+    height: 100vh;
+    float: left;
+}
+
+.side-image {
+    position: absolute;
+    z-index: -.75;
+    width: 29.3vw;
+    height: 100vh;
+
+}
+
+.opacity-container {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+
+    background-color: black;
+    opacity: 0.6;
+    height: 150px;
+    width: 375px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 150px;
+    font-size: 1.2em;
+    position: absolute;
+    top: 27%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.odin-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 2%;
+}
+
+.side-body-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 8%;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.right-side-container {
+    display: flex;
+    position: relative;
+    width: 70vw;
+    height: 33.33vh;
+    background-color: #FAF9F6;
+    float: right;
+    letter-spacing: .02em;
+}
+
+.paragraph-section {
+    display: flex;
+    text-align: start;
+    align-items: flex-start;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 10%;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+
+.form-info-container {
+    position: absolute;
+    top: 97%;
+    background-color: white;
+    display: flex;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 12;
+}
+
+.form-list {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 15px;
+}
+
+.row-1, .row-2, .row-3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    column-gap: 90px;;
+    border-style: none;
+    border-width: 2%;
+    border: #E5E7EB;
+}
+
+.create-account-container {
+    position: absolute;
+    top: 200%;
+    width: 70vw;
+    height: 33.33vh;
+    background-color: #FAF9F6;
+    display: flex;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+.create-account-button {
+    background-color: #596D48;
+    color: white;
+    height: 45px;
+    width: 240px;
+    margin-top: 10%;
+    margin-left: 20%;
+    border-radius: 12px;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+.log-in-option {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 12%;
+    margin-left: 21%;
+    width: 250px;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+.log-in-quesiton {
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+.log-in-highlight {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    gap: 6px;
+    color: #596D48;
+}
